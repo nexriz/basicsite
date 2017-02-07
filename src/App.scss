@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body {
+	height: 100%!important;
+	min-width: 400px;
+	font-family: 'Josefin Sans', arial;
+	font-size: 18px;
+	background-color: #F3F3F3;
+	background: #E8E8E8;
+}
+div {
+	height: 100%;
+}
+
+
+header {
+	background: #294d79;
+	border-bottom: 1px solid #414141;
+	text-align: none;
+	padding: 0px 0px;
+	a {
+		font-family: sans-serif;
+		font-weight: none;
+		font-size: 16px;
+		text-decoration: none;
+		box-shadow: 0px 0px 0px 0px #414141;
+		display: inline-block;
+		border-right: 1px solid transparent;
+		border-left: 1px solid transparent;
+		margin-right: 0px;
+		color: white;
+		padding: 15px 15px;
+		border-radius: 0px;
+	}
+	a:hover {
+		box-shadow: none;
+		background-color: #3068cc;
+		border-right: 1px solid #414141;
+		border-left: 1px solid #414141;
+	}
+	a:focus, .nav-focus {
+		box-shadow: none;
+		background-color: #3068cc;
+		border-right: 1px solid #414141;
+		border-left: 1px solid #414141;
+	}
+	.header-clock {
+		padding: 14px;
+		width: 90px;
+		text-align: center;
+		float: right;
+		color: white;
+		display: inline-block;
+		border-left: 1px solid #414141;
+		background-color: #3f5c93;
+	}
+}
+@import './components/Index.scss';
+
+.app-content { 
+	margin-top: 150px;
+	text-align: center;
+
+}
+
+
+footer {
+	padding: 50px;
+	border-top: 1px solid #A9A9A9;
+	text-align: center;
+	background: orange;
+}
+
